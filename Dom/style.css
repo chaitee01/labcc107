@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+body{
+    background-color: #f7f7f7;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 15px 15px 0 15px;
+    padding: 15px;
+  
+
+}
+
+.flex-item {
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    display: block;
+    padding: 5px 0 5px 0;
+    
+    
+}
+
+.showname {
+    float: right;
+    width: 270px;
+    line-height: 1.5;
+    background-color: #fbfbfb;
+    border: 1px solid #e3e3e3;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+
+.content label{
+    float: left;
+    line-height: 1.5;
+}
+
+.btn {
+    display: block;
+    float: right;
+    border: 0;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 10px 26px;
+    cursor: pointer;
+    background: #00c5fb;
+    color: white;
+    width: 40%;
+    margin: 15px 0 15px 0;
+    
+}
+
+.btn:hover {
+    background: #007bff;
+    transition: background 0.3s;
+}
+
+#result {
+    content: " ";
+    clear: both;
+}
+.clear {
+    content: " ";
+    clear: both;
+    float: left;
+}
+
+.clear p {
+    content: " ";
+    clear: both;
+    padding: 0 0 10px 0;
+    float: left;
+}
+
+.showdate {
+    width: 100%;
+    line-height: 1.5;
+    background-color: #fbfbfb;
+    border: 1px solid #e3e3e3;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button {
+    float: left;
+}
+
+.item2 {
+    height: 250px;
+}
+
+.operatorbutton {
+    border: 0;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    background: #00c5fb;
+    color: white;
+    margin: 15px 0 25px 0;
+}
+
+.operatorbutton:active,
+.operatorbutton:focus {
+    background: #007bff;
+    outline: none;
+    border: none;
+}
